@@ -7,7 +7,7 @@
     <ul class="lista-fotos">
       <li class="lista-fotos-item" v-for="foto of fotos">
         <meu-painel :titulo="foto.titulo">
-          <img class="imagem-responsiva" :src="foto.titulo" :alt="foto.titulo">
+          <img class="imagem-responsiva" :src="foto.url" :alt="foto.titulo">
         </meu-painel> 
           
       </li>
